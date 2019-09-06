@@ -2,7 +2,8 @@
 #define NODE_H
 
 template <typename T>
-struct Node {
+struct Node
+        {
     T data;
     Node<T>* next;
     Node<T>* prev;

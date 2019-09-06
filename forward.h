@@ -5,16 +5,19 @@
 #include "iterators/forward_iterator.h"
 
 template <typename T>
-class ForwardList : public List<T> {
+class ForwardList : public List<T>
+        {
     public:
         ForwardList() : List<T>() {}
 
-        T front() {
-            // TODO
+        T front( )
+        {
+            return this->head->data;
         }
 
-        T back() {
-            // TODO
+        T back()
+        {
+            return this->tail->data;
         }
 
         void push_front(T value) {
