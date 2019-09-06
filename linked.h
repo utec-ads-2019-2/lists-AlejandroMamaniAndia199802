@@ -73,13 +73,10 @@ class LinkedList : public List<T> {
 
         int size()
         {
-            Node<T> *current= new T;
-            Node<T> *previous=new T;
-            current=this->head;
+            Node<T> *current=this->head;
             int cont = 0;
-            while(current->next!=NULL)
+            while(current!=NULL)
             {
-                previous=current;
                 current=current->next;
                 cont++;
             }
