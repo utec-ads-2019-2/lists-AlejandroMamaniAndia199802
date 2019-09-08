@@ -9,7 +9,22 @@ CMakeFiles/lists-AlejandroMamaniAndia199802.dir/main.cpp.obj: ../iterators/forwa
 CMakeFiles/lists-AlejandroMamaniAndia199802.dir/main.cpp.obj: ../linked.h
 CMakeFiles/lists-AlejandroMamaniAndia199802.dir/main.cpp.obj: ../list.h
 CMakeFiles/lists-AlejandroMamaniAndia199802.dir/main.cpp.obj: ../main.cpp
-CMakeFiles/lists-AlejandroMamaniAndia199802.dir/main.cpp.obj: ../mock/mocker.h
+CMakeFiles/lists-AlejandroMamaniAndia199802.dir/main.cpp.obj: ../mocker.h
 CMakeFiles/lists-AlejandroMamaniAndia199802.dir/main.cpp.obj: ../node.h
-CMakeFiles/lists-AlejandroMamaniAndia199802.dir/main.cpp.obj: ../test/tester.h
+CMakeFiles/lists-AlejandroMamaniAndia199802.dir/main.cpp.obj: ../tester.h
+
+CMakeFiles/lists-AlejandroMamaniAndia199802.dir/mocker.cpp.obj: ../mocker.cpp
+CMakeFiles/lists-AlejandroMamaniAndia199802.dir/mocker.cpp.obj: ../mocker.h
+
+CMakeFiles/lists-AlejandroMamaniAndia199802.dir/tester.cpp.obj: ../circular.h
+CMakeFiles/lists-AlejandroMamaniAndia199802.dir/tester.cpp.obj: ../forward.h
+CMakeFiles/lists-AlejandroMamaniAndia199802.dir/tester.cpp.obj: ../iterator.h
+CMakeFiles/lists-AlejandroMamaniAndia199802.dir/tester.cpp.obj: ../iterators/bidirectional_iterator.h
+CMakeFiles/lists-AlejandroMamaniAndia199802.dir/tester.cpp.obj: ../iterators/forward_iterator.h
+CMakeFiles/lists-AlejandroMamaniAndia199802.dir/tester.cpp.obj: ../linked.h
+CMakeFiles/lists-AlejandroMamaniAndia199802.dir/tester.cpp.obj: ../list.h
+CMakeFiles/lists-AlejandroMamaniAndia199802.dir/tester.cpp.obj: ../mocker.h
+CMakeFiles/lists-AlejandroMamaniAndia199802.dir/tester.cpp.obj: ../node.h
+CMakeFiles/lists-AlejandroMamaniAndia199802.dir/tester.cpp.obj: ../tester.cpp
+CMakeFiles/lists-AlejandroMamaniAndia199802.dir/tester.cpp.obj: ../tester.h
 

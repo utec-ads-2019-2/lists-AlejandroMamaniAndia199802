@@ -43,10 +43,10 @@ C:/Users/albin/Desktop/Documents/GitHub/ALGORITMOS/ACTIVIDADES_CLASE/lists-Aleja
 C:/Users/albin/Desktop/Documents/GitHub/ALGORITMOS/ACTIVIDADES_CLASE/lists-AlejandroMamaniAndia199802/main.cpp
 iostream
 -
-test/tester.h
-C:/Users/albin/Desktop/Documents/GitHub/ALGORITMOS/ACTIVIDADES_CLASE/lists-AlejandroMamaniAndia199802/test/tester.h
+tester.h
+C:/Users/albin/Desktop/Documents/GitHub/ALGORITMOS/ACTIVIDADES_CLASE/lists-AlejandroMamaniAndia199802/tester.h
 
-C:/Users/albin/Desktop/Documents/GitHub/ALGORITMOS/ACTIVIDADES_CLASE/lists-AlejandroMamaniAndia199802/mock/mocker.h
+C:/Users/albin/Desktop/Documents/GitHub/ALGORITMOS/ACTIVIDADES_CLASE/lists-AlejandroMamaniAndia199802/mocker.h
 random
 -
 type_traits
@@ -54,19 +54,23 @@ type_traits
 
 C:/Users/albin/Desktop/Documents/GitHub/ALGORITMOS/ACTIVIDADES_CLASE/lists-AlejandroMamaniAndia199802/node.h
 
-C:/Users/albin/Desktop/Documents/GitHub/ALGORITMOS/ACTIVIDADES_CLASE/lists-AlejandroMamaniAndia199802/test/tester.h
+C:/Users/albin/Desktop/Documents/GitHub/ALGORITMOS/ACTIVIDADES_CLASE/lists-AlejandroMamaniAndia199802/tester.cpp
+tester.h
+C:/Users/albin/Desktop/Documents/GitHub/ALGORITMOS/ACTIVIDADES_CLASE/lists-AlejandroMamaniAndia199802/tester.h
+
+C:/Users/albin/Desktop/Documents/GitHub/ALGORITMOS/ACTIVIDADES_CLASE/lists-AlejandroMamaniAndia199802/tester.h
 stdexcept
 -
 iostream
 -
 assert.h
 -
-../mock/mocker.h
-C:/Users/albin/Desktop/Documents/GitHub/ALGORITMOS/ACTIVIDADES_CLASE/lists-AlejandroMamaniAndia199802/mock/mocker.h
-../forward.h
+mocker.h
+C:/Users/albin/Desktop/Documents/GitHub/ALGORITMOS/ACTIVIDADES_CLASE/lists-AlejandroMamaniAndia199802/mocker.h
+forward.h
 C:/Users/albin/Desktop/Documents/GitHub/ALGORITMOS/ACTIVIDADES_CLASE/lists-AlejandroMamaniAndia199802/forward.h
-../linked.h
+linked.h
 C:/Users/albin/Desktop/Documents/GitHub/ALGORITMOS/ACTIVIDADES_CLASE/lists-AlejandroMamaniAndia199802/linked.h
-../circular.h
+circular.h
 C:/Users/albin/Desktop/Documents/GitHub/ALGORITMOS/ACTIVIDADES_CLASE/lists-AlejandroMamaniAndia199802/circular.h
 

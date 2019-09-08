@@ -95,7 +95,19 @@
 		<Unit filename="C:/Users/albin/Desktop/Documents/GitHub/ALGORITMOS/ACTIVIDADES_CLASE/lists-AlejandroMamaniAndia199802/main.cpp">
 			<Option target="lists-AlejandroMamaniAndia199802"/>
 		</Unit>
+		<Unit filename="C:/Users/albin/Desktop/Documents/GitHub/ALGORITMOS/ACTIVIDADES_CLASE/lists-AlejandroMamaniAndia199802/mocker.cpp">
+			<Option target="lists-AlejandroMamaniAndia199802"/>
+		</Unit>
+		<Unit filename="C:/Users/albin/Desktop/Documents/GitHub/ALGORITMOS/ACTIVIDADES_CLASE/lists-AlejandroMamaniAndia199802/mocker.h">
+			<Option target="lists-AlejandroMamaniAndia199802"/>
+		</Unit>
 		<Unit filename="C:/Users/albin/Desktop/Documents/GitHub/ALGORITMOS/ACTIVIDADES_CLASE/lists-AlejandroMamaniAndia199802/node.h">
+			<Option target="lists-AlejandroMamaniAndia199802"/>
+		</Unit>
+		<Unit filename="C:/Users/albin/Desktop/Documents/GitHub/ALGORITMOS/ACTIVIDADES_CLASE/lists-AlejandroMamaniAndia199802/tester.cpp">
+			<Option target="lists-AlejandroMamaniAndia199802"/>
+		</Unit>
+		<Unit filename="C:/Users/albin/Desktop/Documents/GitHub/ALGORITMOS/ACTIVIDADES_CLASE/lists-AlejandroMamaniAndia199802/tester.h">
 			<Option target="lists-AlejandroMamaniAndia199802"/>
 		</Unit>
 		<Unit filename="C:/Users/albin/Desktop/Documents/GitHub/ALGORITMOS/ACTIVIDADES_CLASE/lists-AlejandroMamaniAndia199802/CMakeLists.txt">

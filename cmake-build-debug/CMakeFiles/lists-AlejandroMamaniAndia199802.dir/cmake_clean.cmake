@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/lists-AlejandroMamaniAndia199802.dir/mocker.cpp.obj"
   "CMakeFiles/lists-AlejandroMamaniAndia199802.dir/main.cpp.obj"
+  "CMakeFiles/lists-AlejandroMamaniAndia199802.dir/tester.cpp.obj"
   "lists-AlejandroMamaniAndia199802.pdb"
   "lists-AlejandroMamaniAndia199802.exe"
   "lists-AlejandroMamaniAndia199802.exe.manifest"

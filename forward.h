@@ -12,28 +12,73 @@ class ForwardList : public List<T>
 
         T front( )
         {
+            if ( empty() ) { throw runtime_error("Empty list!"); }
             return this->head->data;
         }
 
         T back()
         {
+            if ( empty() ) { throw runtime_error("Empty list!"); }
             return this->tail->data;
         }
 
         void push_front(T value) {
-            // TODO
+            Node<T> *temp = new Node<T>;
+            if ( empty() )
+            {
+                this -> head = temp;
+                this -> tail = temp;
+                temp -> next = nullptr;
+            }
+            else
+                {
+
+                    temp -> next = this -> head;
+                    this-> head = temp;
+            }
+            temp -> data = value;
+            this->nodes++;
+
         }
 
         void push_back(T value) {
-            // TODO
+            Node<T> *temp = new Node<T>;
+            if ( empty() )
+            {
+                this -> head = temp;
+                this -> tail = temp;
+                temp -> next = nullptr;
+            }
+            else
+            {
+
+                temp -> next = this -> tail;
+                this -> tail = temp;
+            }
+            temp -> data = value;
+            this->nodes++;
+
+
+
         }
 
         void pop_front() {
-            // TODO
+            if ( empty() ) { throw runtime_error("Empty list!"); }
+            else{
+                Node<T> *temp;
+                temp = this->head;
+                this ->head  = this->head ->next;
+                delete temp;
+                --this->nodes;
+            }
+
         }
 
         void pop_back() {
-            // TODO
+            if ( empty() ) { throw runtime_error("Empty list!"); }
+            Node<T> *temp;
+            temp = this->tail;
+
         }
 
         T operator[](int index) {
@@ -41,15 +86,26 @@ class ForwardList : public List<T>
         }
 
         bool empty() {
-            // TODO
+            if (this->head== nullptr)
+            {
+                return true;
+            }
+            return false;
         }
 
         int size() {
-            // TODO
+
         }
 
         void clear() {
-            // TODO
+            Node<T>* temp;
+            while (this->head != nullptr) {
+                temp = this->head->next;
+                delete this->head;
+                this->head = temp;
+            }
+            this->head = NULL;
+            this->tail = NULL;
         }
 
         void sort() {

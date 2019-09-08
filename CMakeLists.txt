@@ -6,4 +6,4 @@ set(CMAKE_CXX_FLAGS -pthread)
 
 
 
-add_executable(lists-AlejandroMamaniAndia199802  forward.h iterator.h linked.h list.h node.h main.cpp)
+add_executable(lists-AlejandroMamaniAndia199802 mocker.h mocker.cpp forward.h iterator.h linked.h list.h node.h main.cpp tester.cpp tester.h)

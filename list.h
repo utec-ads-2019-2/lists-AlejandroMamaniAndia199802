@@ -27,8 +27,12 @@ class List {
         virtual void reverse() = 0;
         virtual string name() = 0;
 
-        ~List() {
-            // TODO
+        ~List()
+        {
+            this->head->killSelf(this->nodes);
+            this->tail = nullptr;
+            this->head = nullptr;
+            this->nodes = 0;
         }
 };
 

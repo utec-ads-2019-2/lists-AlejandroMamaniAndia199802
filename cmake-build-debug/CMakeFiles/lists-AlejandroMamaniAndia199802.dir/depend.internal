@@ -10,6 +10,21 @@ CMakeFiles/lists-AlejandroMamaniAndia199802.dir/main.cpp.obj
  C:/Users/albin/Desktop/Documents/GitHub/ALGORITMOS/ACTIVIDADES_CLASE/lists-AlejandroMamaniAndia199802/linked.h
  C:/Users/albin/Desktop/Documents/GitHub/ALGORITMOS/ACTIVIDADES_CLASE/lists-AlejandroMamaniAndia199802/list.h
  C:/Users/albin/Desktop/Documents/GitHub/ALGORITMOS/ACTIVIDADES_CLASE/lists-AlejandroMamaniAndia199802/main.cpp
- C:/Users/albin/Desktop/Documents/GitHub/ALGORITMOS/ACTIVIDADES_CLASE/lists-AlejandroMamaniAndia199802/mock/mocker.h
+ C:/Users/albin/Desktop/Documents/GitHub/ALGORITMOS/ACTIVIDADES_CLASE/lists-AlejandroMamaniAndia199802/mocker.h
  C:/Users/albin/Desktop/Documents/GitHub/ALGORITMOS/ACTIVIDADES_CLASE/lists-AlejandroMamaniAndia199802/node.h
- C:/Users/albin/Desktop/Documents/GitHub/ALGORITMOS/ACTIVIDADES_CLASE/lists-AlejandroMamaniAndia199802/test/tester.h
+ C:/Users/albin/Desktop/Documents/GitHub/ALGORITMOS/ACTIVIDADES_CLASE/lists-AlejandroMamaniAndia199802/tester.h
+CMakeFiles/lists-AlejandroMamaniAndia199802.dir/mocker.cpp.obj
+ C:/Users/albin/Desktop/Documents/GitHub/ALGORITMOS/ACTIVIDADES_CLASE/lists-AlejandroMamaniAndia199802/mocker.cpp
+ C:/Users/albin/Desktop/Documents/GitHub/ALGORITMOS/ACTIVIDADES_CLASE/lists-AlejandroMamaniAndia199802/mocker.h
+CMakeFiles/lists-AlejandroMamaniAndia199802.dir/tester.cpp.obj
+ C:/Users/albin/Desktop/Documents/GitHub/ALGORITMOS/ACTIVIDADES_CLASE/lists-AlejandroMamaniAndia199802/circular.h
+ C:/Users/albin/Desktop/Documents/GitHub/ALGORITMOS/ACTIVIDADES_CLASE/lists-AlejandroMamaniAndia199802/forward.h
+ C:/Users/albin/Desktop/Documents/GitHub/ALGORITMOS/ACTIVIDADES_CLASE/lists-AlejandroMamaniAndia199802/iterator.h
+ C:/Users/albin/Desktop/Documents/GitHub/ALGORITMOS/ACTIVIDADES_CLASE/lists-AlejandroMamaniAndia199802/iterators/bidirectional_iterator.h
+ C:/Users/albin/Desktop/Documents/GitHub/ALGORITMOS/ACTIVIDADES_CLASE/lists-AlejandroMamaniAndia199802/iterators/forward_iterator.h
+ C:/Users/albin/Desktop/Documents/GitHub/ALGORITMOS/ACTIVIDADES_CLASE/lists-AlejandroMamaniAndia199802/linked.h
+ C:/Users/albin/Desktop/Documents/GitHub/ALGORITMOS/ACTIVIDADES_CLASE/lists-AlejandroMamaniAndia199802/list.h
+ C:/Users/albin/Desktop/Documents/GitHub/ALGORITMOS/ACTIVIDADES_CLASE/lists-AlejandroMamaniAndia199802/mocker.h
+ C:/Users/albin/Desktop/Documents/GitHub/ALGORITMOS/ACTIVIDADES_CLASE/lists-AlejandroMamaniAndia199802/node.h
+ C:/Users/albin/Desktop/Documents/GitHub/ALGORITMOS/ACTIVIDADES_CLASE/lists-AlejandroMamaniAndia199802/tester.cpp
+ C:/Users/albin/Desktop/Documents/GitHub/ALGORITMOS/ACTIVIDADES_CLASE/lists-AlejandroMamaniAndia199802/tester.h

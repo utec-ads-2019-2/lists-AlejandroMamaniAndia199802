@@ -56,9 +56,22 @@ include CMakeFiles/lists-AlejandroMamaniAndia199802.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/lists-AlejandroMamaniAndia199802.dir/flags.make
 
+CMakeFiles/lists-AlejandroMamaniAndia199802.dir/mocker.cpp.obj: CMakeFiles/lists-AlejandroMamaniAndia199802.dir/flags.make
+CMakeFiles/lists-AlejandroMamaniAndia199802.dir/mocker.cpp.obj: ../mocker.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\albin\Desktop\Documents\GitHub\ALGORITMOS\ACTIVIDADES_CLASE\lists-AlejandroMamaniAndia199802\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lists-AlejandroMamaniAndia199802.dir/mocker.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\lists-AlejandroMamaniAndia199802.dir\mocker.cpp.obj -c C:\Users\albin\Desktop\Documents\GitHub\ALGORITMOS\ACTIVIDADES_CLASE\lists-AlejandroMamaniAndia199802\mocker.cpp
+
+CMakeFiles/lists-AlejandroMamaniAndia199802.dir/mocker.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lists-AlejandroMamaniAndia199802.dir/mocker.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\albin\Desktop\Documents\GitHub\ALGORITMOS\ACTIVIDADES_CLASE\lists-AlejandroMamaniAndia199802\mocker.cpp > CMakeFiles\lists-AlejandroMamaniAndia199802.dir\mocker.cpp.i
+
+CMakeFiles/lists-AlejandroMamaniAndia199802.dir/mocker.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lists-AlejandroMamaniAndia199802.dir/mocker.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\albin\Desktop\Documents\GitHub\ALGORITMOS\ACTIVIDADES_CLASE\lists-AlejandroMamaniAndia199802\mocker.cpp -o CMakeFiles\lists-AlejandroMamaniAndia199802.dir\mocker.cpp.s
+
 CMakeFiles/lists-AlejandroMamaniAndia199802.dir/main.cpp.obj: CMakeFiles/lists-AlejandroMamaniAndia199802.dir/flags.make
 CMakeFiles/lists-AlejandroMamaniAndia199802.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\albin\Desktop\Documents\GitHub\ALGORITMOS\ACTIVIDADES_CLASE\lists-AlejandroMamaniAndia199802\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lists-AlejandroMamaniAndia199802.dir/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\albin\Desktop\Documents\GitHub\ALGORITMOS\ACTIVIDADES_CLASE\lists-AlejandroMamaniAndia199802\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/lists-AlejandroMamaniAndia199802.dir/main.cpp.obj"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\lists-AlejandroMamaniAndia199802.dir\main.cpp.obj -c C:\Users\albin\Desktop\Documents\GitHub\ALGORITMOS\ACTIVIDADES_CLASE\lists-AlejandroMamaniAndia199802\main.cpp
 
 CMakeFiles/lists-AlejandroMamaniAndia199802.dir/main.cpp.i: cmake_force
@@ -69,19 +82,36 @@ CMakeFiles/lists-AlejandroMamaniAndia199802.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lists-AlejandroMamaniAndia199802.dir/main.cpp.s"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\albin\Desktop\Documents\GitHub\ALGORITMOS\ACTIVIDADES_CLASE\lists-AlejandroMamaniAndia199802\main.cpp -o CMakeFiles\lists-AlejandroMamaniAndia199802.dir\main.cpp.s
 
+CMakeFiles/lists-AlejandroMamaniAndia199802.dir/tester.cpp.obj: CMakeFiles/lists-AlejandroMamaniAndia199802.dir/flags.make
+CMakeFiles/lists-AlejandroMamaniAndia199802.dir/tester.cpp.obj: ../tester.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\albin\Desktop\Documents\GitHub\ALGORITMOS\ACTIVIDADES_CLASE\lists-AlejandroMamaniAndia199802\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/lists-AlejandroMamaniAndia199802.dir/tester.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\lists-AlejandroMamaniAndia199802.dir\tester.cpp.obj -c C:\Users\albin\Desktop\Documents\GitHub\ALGORITMOS\ACTIVIDADES_CLASE\lists-AlejandroMamaniAndia199802\tester.cpp
+
+CMakeFiles/lists-AlejandroMamaniAndia199802.dir/tester.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lists-AlejandroMamaniAndia199802.dir/tester.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\albin\Desktop\Documents\GitHub\ALGORITMOS\ACTIVIDADES_CLASE\lists-AlejandroMamaniAndia199802\tester.cpp > CMakeFiles\lists-AlejandroMamaniAndia199802.dir\tester.cpp.i
+
+CMakeFiles/lists-AlejandroMamaniAndia199802.dir/tester.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lists-AlejandroMamaniAndia199802.dir/tester.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\albin\Desktop\Documents\GitHub\ALGORITMOS\ACTIVIDADES_CLASE\lists-AlejandroMamaniAndia199802\tester.cpp -o CMakeFiles\lists-AlejandroMamaniAndia199802.dir\tester.cpp.s
+
 # Object files for target lists-AlejandroMamaniAndia199802
 lists__AlejandroMamaniAndia199802_OBJECTS = \
-"CMakeFiles/lists-AlejandroMamaniAndia199802.dir/main.cpp.obj"
+"CMakeFiles/lists-AlejandroMamaniAndia199802.dir/mocker.cpp.obj" \
+"CMakeFiles/lists-AlejandroMamaniAndia199802.dir/main.cpp.obj" \
+"CMakeFiles/lists-AlejandroMamaniAndia199802.dir/tester.cpp.obj"
 
 # External object files for target lists-AlejandroMamaniAndia199802
 lists__AlejandroMamaniAndia199802_EXTERNAL_OBJECTS =
 
+lists-AlejandroMamaniAndia199802.exe: CMakeFiles/lists-AlejandroMamaniAndia199802.dir/mocker.cpp.obj
 lists-AlejandroMamaniAndia199802.exe: CMakeFiles/lists-AlejandroMamaniAndia199802.dir/main.cpp.obj
+lists-AlejandroMamaniAndia199802.exe: CMakeFiles/lists-AlejandroMamaniAndia199802.dir/tester.cpp.obj
 lists-AlejandroMamaniAndia199802.exe: CMakeFiles/lists-AlejandroMamaniAndia199802.dir/build.make
 lists-AlejandroMamaniAndia199802.exe: CMakeFiles/lists-AlejandroMamaniAndia199802.dir/linklibs.rsp
 lists-AlejandroMamaniAndia199802.exe: CMakeFiles/lists-AlejandroMamaniAndia199802.dir/objects1.rsp
 lists-AlejandroMamaniAndia199802.exe: CMakeFiles/lists-AlejandroMamaniAndia199802.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\albin\Desktop\Documents\GitHub\ALGORITMOS\ACTIVIDADES_CLASE\lists-AlejandroMamaniAndia199802\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable lists-AlejandroMamaniAndia199802.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\albin\Desktop\Documents\GitHub\ALGORITMOS\ACTIVIDADES_CLASE\lists-AlejandroMamaniAndia199802\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable lists-AlejandroMamaniAndia199802.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\lists-AlejandroMamaniAndia199802.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

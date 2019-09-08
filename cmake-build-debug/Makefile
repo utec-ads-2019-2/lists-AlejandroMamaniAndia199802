@@ -149,6 +149,60 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles\lists-AlejandroMamaniAndia199802.dir\build.make CMakeFiles/lists-AlejandroMamaniAndia199802.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+mocker.obj: mocker.cpp.obj
+
+.PHONY : mocker.obj
+
+# target to build an object file
+mocker.cpp.obj:
+	$(MAKE) -f CMakeFiles\lists-AlejandroMamaniAndia199802.dir\build.make CMakeFiles/lists-AlejandroMamaniAndia199802.dir/mocker.cpp.obj
+.PHONY : mocker.cpp.obj
+
+mocker.i: mocker.cpp.i
+
+.PHONY : mocker.i
+
+# target to preprocess a source file
+mocker.cpp.i:
+	$(MAKE) -f CMakeFiles\lists-AlejandroMamaniAndia199802.dir\build.make CMakeFiles/lists-AlejandroMamaniAndia199802.dir/mocker.cpp.i
+.PHONY : mocker.cpp.i
+
+mocker.s: mocker.cpp.s
+
+.PHONY : mocker.s
+
+# target to generate assembly for a file
+mocker.cpp.s:
+	$(MAKE) -f CMakeFiles\lists-AlejandroMamaniAndia199802.dir\build.make CMakeFiles/lists-AlejandroMamaniAndia199802.dir/mocker.cpp.s
+.PHONY : mocker.cpp.s
+
+tester.obj: tester.cpp.obj
+
+.PHONY : tester.obj
+
+# target to build an object file
+tester.cpp.obj:
+	$(MAKE) -f CMakeFiles\lists-AlejandroMamaniAndia199802.dir\build.make CMakeFiles/lists-AlejandroMamaniAndia199802.dir/tester.cpp.obj
+.PHONY : tester.cpp.obj
+
+tester.i: tester.cpp.i
+
+.PHONY : tester.i
+
+# target to preprocess a source file
+tester.cpp.i:
+	$(MAKE) -f CMakeFiles\lists-AlejandroMamaniAndia199802.dir\build.make CMakeFiles/lists-AlejandroMamaniAndia199802.dir/tester.cpp.i
+.PHONY : tester.cpp.i
+
+tester.s: tester.cpp.s
+
+.PHONY : tester.s
+
+# target to generate assembly for a file
+tester.cpp.s:
+	$(MAKE) -f CMakeFiles\lists-AlejandroMamaniAndia199802.dir\build.make CMakeFiles/lists-AlejandroMamaniAndia199802.dir/tester.cpp.s
+.PHONY : tester.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -161,6 +215,12 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... mocker.obj
+	@echo ... mocker.i
+	@echo ... mocker.s
+	@echo ... tester.obj
+	@echo ... tester.i
+	@echo ... tester.s
 .PHONY : help
 
 
