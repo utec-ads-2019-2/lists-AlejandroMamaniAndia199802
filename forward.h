@@ -1,6 +1,7 @@
 #ifndef FORWARD_H
 #define FORWARD_H
 
+#include <vector>
 #include "list.h"
 #include "iterators/forward_iterator.h"
 
@@ -103,7 +104,7 @@ class ForwardList : public List<T>
         }
 
         bool empty() {
-            return (this -> head && this ->tail == nullptr ? true:false);
+            return (this -> nodes == 0 ? true:false);
         }
 
         int size()
@@ -120,8 +121,24 @@ class ForwardList : public List<T>
 
         }
 
-        void sort() {
-            // TODO
+        void sort()
+        {
+           Node<T> *temp = this -> head;
+           std::vector<T> temp_content;
+           temp_content.size()=size();
+           for(int i = 0; i< size(); i++)
+           {
+               temp_content[i]=temp -> data;
+               temp = temp -> next;
+           }
+           sort(temp_content.begin(), temp_content.end());
+           temp= this -> head;
+            for (int i = 0; i < size(); i++)
+            {
+                temp-> data = temp_content[i];
+                temp = temp -> next;
+            }
+            delete[] temp_content;
         }
     
         void reverse() {
