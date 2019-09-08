@@ -12,30 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e21f1aa2-30ce-482d-ae0f-b886ad31ed80" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/count.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/count.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lists-AlejandroMamaniAndia199802.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lists-AlejandroMamaniAndia199802.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lists-AlejandroMamaniAndia199802.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lists-AlejandroMamaniAndia199802.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lists-AlejandroMamaniAndia199802.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lists-AlejandroMamaniAndia199802.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lists-AlejandroMamaniAndia199802.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lists-AlejandroMamaniAndia199802.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lists-AlejandroMamaniAndia199802.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lists-AlejandroMamaniAndia199802.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lists-AlejandroMamaniAndia199802.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lists-AlejandroMamaniAndia199802.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lists-AlejandroMamaniAndia199802.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lists-AlejandroMamaniAndia199802.dir/objects1.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lists-AlejandroMamaniAndia199802.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lists-AlejandroMamaniAndia199802.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lists-AlejandroMamaniAndia199802.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lists-AlejandroMamaniAndia199802.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/forward.h" beforeDir="false" afterPath="$PROJECT_DIR$/forward.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linked.h" beforeDir="false" afterPath="$PROJECT_DIR$/linked.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/list.h" beforeDir="false" afterPath="$PROJECT_DIR$/list.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mock/mocker.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/mocker.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mock/mocker.h" beforeDir="false" afterPath="$PROJECT_DIR$/mocker.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node.h" beforeDir="false" afterPath="$PROJECT_DIR$/node.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/tester.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/tester.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/tester.h" beforeDir="false" afterPath="$PROJECT_DIR$/tester.h" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -86,8 +63,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/forward.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
+            <state relative-caret-position="188">
+              <caret line="119" column="34" lean-forward="true" selection-start-line="119" selection-start-column="34" selection-end-line="119" selection-end-column="34" />
               <folding>
                 <element signature="e#37#54#0" expanded="true" />
                 <element signature="e#105#117#0" expanded="true" />
@@ -243,12 +220,12 @@
       <workItem from="1567639291920" duration="12712000" />
       <workItem from="1567886560463" duration="611000" />
       <workItem from="1567897864616" duration="7123000" />
-      <workItem from="1567967381273" duration="3644000" />
+      <workItem from="1567967381273" duration="7267000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24090000" />
+    <option name="totallyTimeSpent" value="27713000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1359" y="-7" width="1295" height="695" extended-state="6" />
@@ -388,8 +365,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/forward.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
+        <state relative-caret-position="188">
+          <caret line="119" column="34" lean-forward="true" selection-start-line="119" selection-start-column="34" selection-end-line="119" selection-end-column="34" />
           <folding>
             <element signature="e#37#54#0" expanded="true" />
             <element signature="e#105#117#0" expanded="true" />
