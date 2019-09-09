@@ -1,4 +1,4 @@
-#ifndef LINKED_H
+/*#ifndef LINKED_H
 #define LINKED_H
 
 #include "list.h"
@@ -47,18 +47,6 @@ class LinkedList : public List<T> {
 
         void pop_back()
         {
-            if(empty()= true)
-            {
-                this->head= nullptr;
-                this->tail= nullptr;
-            }
-            else{
-                    Node<T> temp;
-                    this-> tail = temp;
-                    this ->tail = this->tail->previous;
-                    this->tail-> next = nullptr;
-                    delete temp;
-            }
         }
 
         T operator[](int index)
@@ -73,20 +61,7 @@ class LinkedList : public List<T> {
 
         int size()
         {
-<<<<<<< HEAD
-            Node<T> *current;
-            Node<T> *previous;
-            current=this->head;
-=======
-            Node<T> *current=this->head;
->>>>>>> 1505a097c2daea5b951d6758d9e56851492aa2e0
-            int cont = 0;
-            while(current!=NULL)
-            {
-                current=current->next;
-                cont++;
-            }
-           return cont;
+
         }
 
         void clear()
@@ -123,3 +98,4 @@ class LinkedList : public List<T> {
 };
 
 #endif
+*/

@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/albin/Desktop/Documents/GitHub/ALGORITMOS/ACTIVIDADES_CLASE/lists-AlejandroMamaniAndia199802/circular.h
-list.h
-C:/Users/albin/Desktop/Documents/GitHub/ALGORITMOS/ACTIVIDADES_CLASE/lists-AlejandroMamaniAndia199802/list.h
-
 C:/Users/albin/Desktop/Documents/GitHub/ALGORITMOS/ACTIVIDADES_CLASE/lists-AlejandroMamaniAndia199802/forward.h
+vector
+-
 list.h
 C:/Users/albin/Desktop/Documents/GitHub/ALGORITMOS/ACTIVIDADES_CLASE/lists-AlejandroMamaniAndia199802/list.h
+algorithm
+-
 iterators/forward_iterator.h
 C:/Users/albin/Desktop/Documents/GitHub/ALGORITMOS/ACTIVIDADES_CLASE/lists-AlejandroMamaniAndia199802/iterators/forward_iterator.h
 
@@ -20,21 +20,9 @@ C:/Users/albin/Desktop/Documents/GitHub/ALGORITMOS/ACTIVIDADES_CLASE/lists-Aleja
 node.h
 C:/Users/albin/Desktop/Documents/GitHub/ALGORITMOS/ACTIVIDADES_CLASE/lists-AlejandroMamaniAndia199802/node.h
 
-C:/Users/albin/Desktop/Documents/GitHub/ALGORITMOS/ACTIVIDADES_CLASE/lists-AlejandroMamaniAndia199802/iterators/bidirectional_iterator.h
-../iterator.h
-C:/Users/albin/Desktop/Documents/GitHub/ALGORITMOS/ACTIVIDADES_CLASE/lists-AlejandroMamaniAndia199802/iterator.h
-
 C:/Users/albin/Desktop/Documents/GitHub/ALGORITMOS/ACTIVIDADES_CLASE/lists-AlejandroMamaniAndia199802/iterators/forward_iterator.h
 ../iterator.h
 C:/Users/albin/Desktop/Documents/GitHub/ALGORITMOS/ACTIVIDADES_CLASE/lists-AlejandroMamaniAndia199802/iterator.h
-
-C:/Users/albin/Desktop/Documents/GitHub/ALGORITMOS/ACTIVIDADES_CLASE/lists-AlejandroMamaniAndia199802/linked.h
-list.h
-C:/Users/albin/Desktop/Documents/GitHub/ALGORITMOS/ACTIVIDADES_CLASE/lists-AlejandroMamaniAndia199802/list.h
-node.h
-C:/Users/albin/Desktop/Documents/GitHub/ALGORITMOS/ACTIVIDADES_CLASE/lists-AlejandroMamaniAndia199802/node.h
-iterators/bidirectional_iterator.h
-C:/Users/albin/Desktop/Documents/GitHub/ALGORITMOS/ACTIVIDADES_CLASE/lists-AlejandroMamaniAndia199802/iterators/bidirectional_iterator.h
 
 C:/Users/albin/Desktop/Documents/GitHub/ALGORITMOS/ACTIVIDADES_CLASE/lists-AlejandroMamaniAndia199802/list.h
 node.h
@@ -69,8 +57,4 @@ mocker.h
 C:/Users/albin/Desktop/Documents/GitHub/ALGORITMOS/ACTIVIDADES_CLASE/lists-AlejandroMamaniAndia199802/mocker.h
 forward.h
 C:/Users/albin/Desktop/Documents/GitHub/ALGORITMOS/ACTIVIDADES_CLASE/lists-AlejandroMamaniAndia199802/forward.h
-linked.h
-C:/Users/albin/Desktop/Documents/GitHub/ALGORITMOS/ACTIVIDADES_CLASE/lists-AlejandroMamaniAndia199802/linked.h
-circular.h
-C:/Users/albin/Desktop/Documents/GitHub/ALGORITMOS/ACTIVIDADES_CLASE/lists-AlejandroMamaniAndia199802/circular.h
 

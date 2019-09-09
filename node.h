@@ -8,11 +8,9 @@ struct Node
     Node<T>* next;
     Node<T>* prev;
 
-    void killSelf()
+    void killSelf(int count)
     {
-        if (next) {
-            next->killSelf();
-        }
+        if (count > 1) next->killSelf(count-1);
         delete this;
     }
 };

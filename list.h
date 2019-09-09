@@ -25,13 +25,13 @@ class List {
         virtual void clear() = 0;
         virtual void sort() = 0;
         virtual void reverse() = 0;
-        virtual string name() = 0;
+        virtual std::string name() = 0;
 
         ~List()
         {
             this->head->killSelf(this->nodes);
-            this->tail = nullptr;
-            this->head = nullptr;
+            this->head = NULL;
+            this->tail = NULL;
             this->nodes = 0;
         }
 };

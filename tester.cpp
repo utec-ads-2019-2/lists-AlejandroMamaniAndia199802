@@ -1,7 +1,7 @@
 #include "tester.h"
 
 void Tester::execute() {
-    Collection collections[] = { forward_list, linked_list, circular_list };
+    Collection collections[] = { forward_list/*, linked_list, circular_list*/ };
     size_t numberOfCollections = sizeof(collections) / sizeof(collections[0]);
 
     for (int i = 0; i < numberOfCollections; i++) {
@@ -16,8 +16,8 @@ template <typename T>
 List<T>* Tester::getCollection(Collection collection) {
     switch (collection) {
         case forward_list: return new ForwardList<T>();
-        case linked_list: return new LinkedList<T>();
-        case circular_list: return new CircularLinkedList<T>();
+        //case linked_list: return new LinkedList<T>();
+        // circular_list: return new CircularLinkedList<T>();
         default: throw invalid_argument("Not a valid collection - build");
     }
 }
@@ -26,8 +26,8 @@ template <typename T>
 void Tester::testSpecifics(Collection collection, List<T>* list) {
     switch (collection) {
         case forward_list: testForward((ForwardList<T>*) list); break;
-        case linked_list: testLinked((LinkedList<T>*) list); break;
-        case circular_list: testCircularLinked((CircularLinkedList<T>*) list); break;
+        //case linked_list: testLinked((LinkedList<T>*) list); break;
+        //case circular_list: testCircularLinked((CircularLinkedList<T>*) list); break;
         default: throw invalid_argument("Not a valid collection - specifics");
     }
 }
@@ -124,7 +124,7 @@ void Tester::testForward(ForwardList<T>* list) {
     ++it;
     ASSERT(it != list->end(), "The " + list->name() + " iterator is not working");
 }
-
+/*
 template <typename T>
 void Tester::testLinked(LinkedList<T>* list) {
     Mocker mocker;
@@ -184,3 +184,4 @@ void Tester::testCircularLinked(CircularLinkedList<T>* list) {
     --it;
     ASSERT(*it == elements[4], "The " + list->name() + " iterator is not working");
 }
+ */
