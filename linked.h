@@ -1,101 +1,166 @@
-/*#ifndef LINKED_H
+#ifndef LINKED_H
 #define LINKED_H
 
+#include <string>
+#include <algorithm>
 #include "list.h"
 #include "node.h"
 #include "iterators/bidirectional_iterator.h"
-
+using namespace std;
 template <typename T>
 class LinkedList : public List<T> {
     public:
         LinkedList() : List<T>() {}
 
-        T front()
+    T front() {
+        if ( empty() ) { throw; }
+        return this->head->data;
+    }
+    T back()
+    {
+        if ( empty() ) { throw; }
+        return this->tail->data;
+    }
+
+
+    void push_front(T value) {
+        Node<T> *tempNode = new Node<T>();
+        if (empty())
         {
-            return this->head->data;
-
+            this->head = tempNode;
+            this->tail = tempNode;
         }
-
-        T back( )
+        else
         {
-            return this->tail->data;
+            tempNode->next = this->head;
+            this->head->prev = tempNode;
+            this->head = tempNode;
         }
+        tempNode->data = value;
+        ++this->nodes;
+    }
 
-        void push_front(T value)
+    void push_back(T value) {
+        Node<T> *tempNode = new Node<T>();
+        if (empty())
         {
-            Node<T> temp;
-            temp->data=value;
-            temp->next=this->head;
-            this->head=temp;
+            this->head = tempNode;
+            this->tail = tempNode;
         }
-
-        void push_back(T value)
+        else
         {
-            Node<T> temp;
-            temp->data=value;
-            temp->next=this->tail;
-            this->tail=temp;
+            this->tail->next = tempNode;
+            tempNode->prev = this->tail;
+            this->tail = tempNode;
         }
+        tempNode->data = value;
+        ++this->nodes;
+    }
 
-        void pop_front()
+    void pop_front() {
+        if (!empty())
         {
-            Node<T> temp;
-            this-> head = temp;
-            this ->head = this->head->next;
-            delete temp;
+            Node<T> *tempNode = this->head->next;
+            delete this->head;
+            this->head = tempNode;
+            this->head->prev = nullptr;
+            --this->nodes;
         }
+    }
 
-        void pop_back()
+    void pop_back() {
+        if (!empty())
         {
+            Node<T> *tempNode = this->tail->prev;
+            delete this->tail;
+            this->tail = tempNode;
+            this->tail->next = nullptr;
+            --this->nodes;
         }
+    }
 
-        T operator[](int index)
+    T operator[](int index) {
+        if (index >= size())
+            throw;
+        Node<T> *tempNode = this->head;
+        for (int i = 0; i < index; i++)
+            tempNode = tempNode->next ;
+        return tempNode->data ;
+    }
+
+    bool empty() {
+        return (this->nodes == 0 ? true : false);
+    }
+
+    int size() {
+        return this->nodes;
+    }
+
+    void clear() {
+        this->head->killSelf(this->nodes);
+        this->head = nullptr;
+        this->tail = nullptr;
+        this->nodes = 0;
+    }
+
+    void sort() {
+        Node<T> *temp = this->head;
+        std::vector<T> temp_content(size());
+        for(int i = 0; i< size(); i++)
         {
-
+            temp_content[i]=temp -> data;
+            temp = temp -> next;
         }
-
-        bool empty()
+        std::sort(temp_content.begin(), temp_content.end());
+        temp= this -> head;
+        for (int i = 0; i < size(); i++)
         {
-            return !(this->head->data);
+            temp-> data = temp_content[i];
+            temp = temp -> next;
         }
+        temp_content.erase(temp_content.begin(), temp_content.end());
+    }
 
-        int size()
+    void reverse() {
+        if (size() <= 1) return;
+        Node<T> *prevNode = NULL;
+        Node<T> *currNode = this->head;
+        Node<T> *tempNode = new Node<T>();
+        for (int i = 0; i < size(); i++)
         {
-
+            tempNode = currNode -> next;
+            currNode -> next = prevNode;
+            currNode -> prev = tempNode;
+            prevNode = currNode;
+            currNode = tempNode;
         }
+        std::swap(this->head, this->tail);
+    }
 
-        void clear()
+    string name() {
+        return "Linked List";
+    }
+
+    BidirectionalIterator<T> begin() {
+        return BidirectionalIterator<T> (this->head);
+    }
+
+    BidirectionalIterator<T> end() {
+        return BidirectionalIterator<T> (NULL);
+    }
+
+    void merge(LinkedList<T> &list) {
+        if (list.empty()) return;
+        if (size() == 0)
+            this->head = list.head;
+        else
         {
-            // TODO
+            this->tail->next = list.head;
+            list.head->prev = this->tail;
         }
-
-        void sort()
-        {
-            // TODO
-        }
-    
-        void reverse()
-        {
-            // TODO
-        }
-
-        string name()
-        {
-            return "Linked List";
-        }
-
-        BidirectionalIterator<T> begin() {
-            // TODO
-        }
-
-	    BidirectionalIterator<T> end() {
-            // TODO
-        }
-
-        void merge(LinkedList<T> list) {
-            // TODO
-        }
+        this->tail = list.tail;
+        this->nodes += list.nodes;
+    }
 };
 
 #endif
-*/
