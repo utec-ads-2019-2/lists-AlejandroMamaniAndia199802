@@ -24,7 +24,8 @@ public:
         return (*this);
     }
 
-    T operator*() {
+    T operator*()
+    {
         return this->current->data;
     }
 };

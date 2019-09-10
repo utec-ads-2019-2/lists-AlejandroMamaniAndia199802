@@ -40,6 +40,8 @@ class LinkedList : public List<T> {
         ++this->nodes;
     }
 
+
+
     void push_back(T value) {
         Node<T> *tempNode = new Node<T>();
         if (empty())
@@ -120,7 +122,6 @@ class LinkedList : public List<T> {
         }
         temp_content.erase(temp_content.begin(), temp_content.end());
     }
-
     void reverse() {
         if (size() <= 1) return;
         Node<T> *prevNode = NULL;
