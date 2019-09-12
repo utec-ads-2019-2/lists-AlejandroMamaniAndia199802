@@ -30,7 +30,6 @@ public:
         }
         else
         {
-
             temp -> next = this -> head;
             this-> head = temp;
         }
@@ -105,9 +104,9 @@ public:
         return this->nodes;
     }
 
-    void clear() {
-
-        this->head->killSelf(0);
+    void clear()
+    {
+        this->head->killSelf(this->nodes);
         this->nodes=0;
         this->head = nullptr;
         this->tail = nullptr;
@@ -162,7 +161,8 @@ public:
     ForwardIterator<T> end() {
         return ForwardIterator<T> (NULL);
     }
-    void merge(ForwardList<T> &list) {
+    void merge(ForwardList<T> &list)
+    {
         if (list.empty())
         {
             throw runtime_error("Empty list!");
@@ -178,6 +178,7 @@ public:
         this->tail = list.tail;
         this->nodes += list.nodes;
     }
+
 };
 
 #endif

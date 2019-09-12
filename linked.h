@@ -23,7 +23,8 @@ class LinkedList : public List<T> {
     }
 
 
-    void push_front(T value) {
+    void push_front(T value)
+    {
         Node<T> *tempNode = new Node<T>();
         if (empty())
         {
@@ -42,7 +43,8 @@ class LinkedList : public List<T> {
 
 
 
-    void push_back(T value) {
+    void push_back(T value)
+    {
         Node<T> *tempNode = new Node<T>();
         if (empty())
         {
@@ -70,7 +72,8 @@ class LinkedList : public List<T> {
         }
     }
 
-    void pop_back() {
+    void pop_back()
+    {
         if (!empty())
         {
             Node<T> *tempNode = this->tail->prev;
@@ -82,7 +85,7 @@ class LinkedList : public List<T> {
     }
 
     T operator[](int index) {
-        if (index >= size())
+        if (index > size())
             throw;
         Node<T> *tempNode = this->head;
         for (int i = 0; i < index; i++)
@@ -124,12 +127,12 @@ class LinkedList : public List<T> {
     }
     void reverse() {
         if (size() <= 1) return;
-        Node<T> *prevNode = NULL;
+        Node<T> *prevNode = nullptr;
         Node<T> *currNode = this->head;
-        Node<T> *tempNode = new Node<T>();
+        Node<T> *tempNode;
         for (int i = 0; i < size(); i++)
         {
-            tempNode = currNode -> next;
+            tempNode= currNode -> next;
             currNode -> next = prevNode;
             currNode -> prev = tempNode;
             prevNode = currNode;
