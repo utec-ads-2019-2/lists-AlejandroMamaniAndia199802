@@ -85,6 +85,7 @@ class LinkedList : public List<T> {
     }
 
     T operator[](int index) {
+        // Debería ser mayor e igual
         if (index > size())
             throw;
         Node<T> *tempNode = this->head;
@@ -94,6 +95,7 @@ class LinkedList : public List<T> {
     }
 
     bool empty() {
+        // Esto podría ser return this->nodes == 0;
         return (this->nodes == 0 ? true : false);
     }
 

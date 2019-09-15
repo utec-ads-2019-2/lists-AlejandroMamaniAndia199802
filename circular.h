@@ -79,6 +79,7 @@ public:
 
     }
     void pop_back() {
+        // No es necesario
         if(empty())
         {
             throw;
@@ -97,6 +98,7 @@ public:
 
     T operator[](int index)
     {
+        // Esto está bien (y)
         if (index >= size())
             throw;
         Node<T> *tempNode = this->head;
@@ -164,6 +166,7 @@ public:
     }
 
     BidirectionalIterator<T> end() {
+        // Cómo manejas el caso de it != list.end() en el caso de una circular?
         return BidirectionalIterator<T> (this->head);
     }
 

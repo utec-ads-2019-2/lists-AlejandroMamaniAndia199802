@@ -57,6 +57,7 @@ public:
     }
 
     void pop_front() {
+        // Esto está mejor, no estás lanzando un throw
         if (!empty())
         {
             Node<T> *temp = this->head->next;
@@ -68,6 +69,7 @@ public:
 
     void pop_back()
     {
+        // En el caso del pop, no es tan necesario lanzar un throw. Esto es más útil cuando se retorna algo
         if ( empty() ) { throw runtime_error("Empty list!"); }
         else
         {
@@ -84,6 +86,7 @@ public:
     }
 
     T operator[](int index) {
+        // Debería ser mayor e igual a size()
         if (index > size())
             throw runtime_error("Empty list!");
         Node<T> *temp = this->head;
@@ -163,6 +166,7 @@ public:
     }
     void merge(ForwardList<T> &list)
     {
+        // No es necesario, en un merge no interesa si la otra lista está vacía
         if (list.empty())
         {
             throw runtime_error("Empty list!");
